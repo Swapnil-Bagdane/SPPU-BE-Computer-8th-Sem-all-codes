@@ -1,0 +1,13 @@
+-->cpp
+g++ -fopenmp program.cpp -o program
+./program
+
+-->CUDA
+nvcc -o program program.cpp
+./program
+
+-->
+sudo apt install python3
+sudo apt install pyhton3-pip
+pip3 install jupyter
+jupyter notebook
